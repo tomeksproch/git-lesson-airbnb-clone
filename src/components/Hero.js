@@ -1,14 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
+import collage from '../images/Group 77.png';
 
 const Hero = () => {
   return (
     <HeroStyle>
-      <img
-        className="hero--image"
-        src="../assets/Group 77.png"
-        alt="Collage picture"
-      />
+      <img className="hero--image" src={collage} alt="Collage picture" />
 
       <h1 className="hero--header">Online Experiences</h1>
       <p className="hero--text">

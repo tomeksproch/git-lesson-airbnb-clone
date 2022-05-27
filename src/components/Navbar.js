@@ -1,15 +1,11 @@
 import React from 'react';
-
+import airbnblogo from '../images/airbnb 1.svg';
 import styled from 'styled-components';
 
 const Navbar = () => {
   return (
     <StyledNavbar>
-      <img
-        src="../assets/airbnb 1.svg"
-        alt="Airbnb logo"
-        className="nav--logo"
-      />
+      <img src={airbnblogo} alt="Airbnb logo" className="nav--logo" />
     </StyledNavbar>
   );
 };
